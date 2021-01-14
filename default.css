@@ -9,6 +9,10 @@ html,body{
     margin: 0;
 
 }
+a{
+    text-decoration: none;
+    columns: #17a2ba;;
+}
 
 h1,h2,h3,h4,h5,h6{
     color: var(--maintext);
@@ -47,6 +51,8 @@ h1,h2,h3,h4,h5,h6{
     border: 1px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
     display:grid;
+    margin-left: 70px;
+    margin-right: 70px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3em 30em;
     grid-template-areas:
@@ -61,6 +67,11 @@ h1,h2,h3,h4,h5,h6{
     justify-content: space-between;
     align-items: center;
     
+}
+#navigation{
+    margin:0;
+    padding: 10px;
+    display: inline-block;
 }
 .left-wrapper{
     grid-area: left-wrapper;
